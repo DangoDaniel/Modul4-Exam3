@@ -13,11 +13,18 @@
 </head>
 <body>
 
-<a href="<c:url value="/receiver?name=coder&mail=coder@somemail.com&id=34"/>">Link do servletu receiver</a>
-<br>
-<a href="<c:url value="/form.jsp"/>">Link do servleru form.jsp</a>
-<br>
-<a href="<c:url value="/smurfs"/>">Link do servleru smurfs</a>
+<h1>Zadanie 1</h1>
+<a href="<c:url value="/receiver?name=coder&mail=coder@somemail.com&id=34"/>">Link do servletu receiver</a><br>
+<a href="<c:url value="/form.jsp"/>">Link do servleru form.jsp</a><br>
+
+<h1>Zadanie 3</h1>
+<a href="<c:url value="/smurfs"/>">Smerfy</a><br>
+<h1>Zadanie 4</h1>
+<a href="<c:url value="/addquote"/>">Dodaj cytat</a><br>
+<a href="<c:url value="/allquotes"/>">Wszystkie cytaty</a><br>
+<a href="<c:url value="/randomquote"/>">Losowy cytat</a>
+
+
 
 </body>
 </html>
